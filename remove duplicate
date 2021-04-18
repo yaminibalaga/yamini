@@ -1,0 +1,16 @@
+public class Removeduplicate{
+public  static void main(String args[])
+{
+String str="yamini balaga";
+char arr[]=str.toCharArray();
+String res=" ";
+for(char i: arr)
+{
+if(res.indexOf(i) ==-1)
+{
+res+=i;
+}
+}
+System.out.println("The string is after removing of duplicates is "+res);
+}
+}
